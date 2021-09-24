@@ -68,7 +68,9 @@
         max-width: 160px;
     }
 
-
+    .firstscreen {
+        margin-top: 120px;
+    }
 
 
 
@@ -415,11 +417,50 @@
         color: #efc47a;
     }
 
+    .fullscreenmodal__middlesect .title {
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
 
+    .closemodal {
+        right: 30px;
+        top: 30px;
+        width: 24px;
+        height: 24px;
+        padding: 0;
 
+        img {
+            width: 100%;
+        }
+    }
 
+    .fullscreenmodal__descr p {
+        font-size: 16px;
+    }
 
+    .fullscreenmodal__content>img {
+        margin-bottom: 20px;
+    }
 
+    .fullscreenmodal__descr {
+        margin-bottom: 30px;
+    }
+
+    .firstscreen {
+        margin-top: 80px;
+    }
+
+    .smalpicsect.p30 {
+        padding: 20px 0;
+    }
+
+    .breadcrumbs {
+        margin-top: 30px;
+    }
+
+    .breadcrumbs ol li {
+        font-size: 16px;
+    }
 
 }
 
@@ -457,7 +498,9 @@
         max-width: 140px;
     }
 
-
+    .rooms .popular {
+        margin-bottom: 0;
+    }
 
 
 
@@ -605,6 +648,36 @@
         right: -80px;
     }
 
+    .fullscreenmodal__middlesect {
+        width: 100%;
+    }
+
+    .fullscreenmodal__middlesect .title {
+        margin-bottom: 15px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .fullscreenmodal__middlesect {
+        padding: 30px 15px;
+    }
+
+    .fullscreenmodal__descr p {
+        font-size: 14px;
+    }
+
+    .fullscreenmodal__btns a {
+        height: 42px;
+        margin: 0 5px;
+        min-width: initial;
+        width: 100%;
+        max-width: 140px;
+        padding: 0 15px;
+    }
+
+    .firstscreen {
+        margin-top: 60px;
+    }
 
 
 }

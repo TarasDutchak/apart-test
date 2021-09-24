@@ -4,8 +4,24 @@ ul {
     margin: 0;
 }
 
+body,
+html {
+    height: 100%;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.pagewrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
 body {
-    background: #fff;
+    background: #f9f6ec;
     color: #2c281b;
     font-size: 15px;
     line-height: 20px;
@@ -759,6 +775,93 @@ a.yellowbtn {
 .mobtelbox {
     display: none;
 }
+
+// FULL SCREEN MODAL=======================================================================================
+
+.fullscreenmodal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(44, 40, 27, 0.96);
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+
+}
+
+.fullscreenmodal__middlesect {
+    margin: auto;
+    padding: 40px;
+
+    .title {
+        text-align: center;
+        margin-bottom: 40px;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 41px;
+        letter-spacing: 0.05em;
+        color: #FFFCF2;
+    }
+}
+
+.fullscreenmodal__content {
+    margin: 0 auto;
+    max-width: 812px;
+
+    >img {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+}
+
+.fullscreenmodal__descr {
+    margin-bottom: 50px;
+
+    p {
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFCF2;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.fullscreenmodal__btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        min-width: 160px;
+        margin: 0 25px;
+    }
+}
+
+.closemodal {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    background-color: transparent;
+    outline: none !important;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 // font-size: 15px;
 // line-height: 20px;

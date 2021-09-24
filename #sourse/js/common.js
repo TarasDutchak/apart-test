@@ -124,6 +124,10 @@ $(document).ready(function () {
         }
     });
 
+    $('.closemodal, .fullscreenmodal__btns a').click(function (e) {
+        e.preventDefault();
+        $('.fullscreenmodal').fadeOut();
+    });
 
 
 
