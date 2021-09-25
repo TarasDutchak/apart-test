@@ -1,0 +1,199 @@
+.sliderbig-slide {
+    height: 437px;
+    position: relative;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+}
+
+.roomsliders__big {
+    margin-bottom: 20px;
+}
+
+.roomsliders__small {
+    padding: 0 25px;
+
+    .slick-slide {
+        padding: 0 10px;
+    }
+}
+
+.sliderlitt-slide {
+    height: 102px;
+    position: relative;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+}
+
+.slider-nav {
+    .slick-arrow {
+        width: 20px;
+        height: 20px;
+        border: none;
+        outline: none !important;
+        background-color: transparent;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 2;
+        padding: 0;
+    }
+
+    .slick-prev {
+        background: url('../img/svg/leftarr.svg');
+        left: -30px;
+    }
+
+    .slick-next {
+        background: url('../img/svg/rightarr.svg');
+        right: -30px;
+    }
+
+    .slick-slide.slick-current .sliderlitt-slide {
+        border: 3px solid #EFC47A;
+    }
+
+    .slick-slide .sliderlitt-slide {
+        border: 3px solid transparent;
+        transition: .5s;
+    }
+}
+
+.roomsect {
+    padding-bottom: 20px;
+}
+
+.roomsect__title {
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+.roomsect__bron {
+    .title {
+        position: relative;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 46px;
+
+        &:after {
+            content: '';
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            bottom: -16px;
+            width: 80px;
+            height: 2px;
+            background: #EFC47A;
+        }
+    }
+
+    .price {
+        position: relative;
+        padding-left: 35px;
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 20px;
+
+        span {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 27px;
+        }
+
+        &:after {
+            content: '';
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            background: url('../img/svg/price.svg') no-repeat center / 100%;
+        }
+    }
+
+    .priceinfo {
+        font-size: 13px;
+        line-height: 18px;
+        margin-bottom: 30px;
+    }
+
+    .yellowbtn {
+        max-width: 170px;
+        margin-bottom: 60px;
+
+        &:hover {
+            color: #2c281b;
+        }
+    }
+
+    .placetitle {
+        margin-bottom: 15px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    ul {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+.roomdescription {
+    padding-top: 70px;
+
+    .botttext {
+        font-weight: 300;
+        margin: 25px 0 0 0;
+    }
+}
+
+.roomdescription__benefits .title {
+    margin-bottom: 22px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.benefits__box {
+    ul {
+        li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 38px;
+
+            &:after {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 1px;
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                background: url('../img/svg/check.svg') no-repeat center / 100%;
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

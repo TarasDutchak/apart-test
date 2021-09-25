@@ -69,7 +69,7 @@
     }
 
     .firstscreen {
-        margin-top: 120px;
+        padding-top: 120px;
     }
 
 
@@ -447,7 +447,7 @@
     }
 
     .firstscreen {
-        margin-top: 80px;
+        padding-top: 80px;
     }
 
     .smalpicsect.p30 {
@@ -461,6 +461,89 @@
     .breadcrumbs ol li {
         font-size: 16px;
     }
+
+    .roomsect__title {
+        margin-bottom: 20px;
+    }
+
+    .sliderbig-slide {
+        height: 300px;
+    }
+
+    .roomsect__title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .roomsliders__small .slick-slide {
+        padding: 0 5px;
+    }
+
+    .roomsliders__small {
+        padding: 0 20px;
+    }
+
+    .slider-nav .slick-prev {
+        left: -25px;
+    }
+
+    .slider-nav .slick-next {
+        right: -25px;
+    }
+
+    .sliderlitt-slide {
+        height: 80px;
+    }
+
+    .roomsect__bron .title {
+        margin-bottom: 30px;
+    }
+
+    .roomsect__bron .title:after {
+        bottom: -10px;
+    }
+
+    .roomsect__bron .price {
+        font-size: 16px;
+        margin-bottom: 10px;
+
+        span {
+            font-size: 18px;
+        }
+    }
+
+    .roomsect__bron .priceinfo {
+        margin-bottom: 20px;
+    }
+
+    .roomsect__bron .yellowbtn {
+        margin-bottom: 30px;
+    }
+
+    .roomsect__bron .placetitle {
+        margin-bottom: 10px;
+    }
+
+    .benefits__box ul li:last-child {
+        margin-bottom: 10px;
+    }
+
+    .roomdescription .sect-title {
+        margin-bottom: 30px;
+    }
+
+    .roomdescription {
+        padding-top: 50px;
+    }
+
+    .gensect.roomsect {
+        padding-bottom: 20px;
+    }
+
+
+
+
+
 
 }
 
@@ -501,6 +584,12 @@
     .rooms .popular {
         margin-bottom: 0;
     }
+
+    .roomsect__bron {
+        margin-top: 30px;
+    }
+
+
 
 
 
@@ -676,8 +765,40 @@
     }
 
     .firstscreen {
-        margin-top: 60px;
+        padding-top: 60px;
     }
+
+    .breadcrumbs ol li {
+        font-size: 14px;
+    }
+
+    .sliderbig-slide {
+        height: 240px;
+    }
+
+    .roomdescription {
+        padding-top: 30px;
+    }
+
+    .roomdescription__benefits .title {
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
