@@ -162,5 +162,25 @@ $(document).ready(function () {
         ]
     });
 
+    // faq
+
+    $('.faq-closeshow').click(function () {
+
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 });

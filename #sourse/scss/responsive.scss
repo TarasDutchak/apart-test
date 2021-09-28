@@ -72,6 +72,10 @@
         padding-top: 120px;
     }
 
+    .gensect__akcia p,
+    .gensect__akcia .title {
+        margin-bottom: 20px;
+    }
 
 
 
@@ -540,10 +544,34 @@
         padding-bottom: 20px;
     }
 
+    .gallserv {
+        .gallerysect.service .gensect__gallery-textbox {
+            margin-top: 0;
 
+            .title {
+                font-size: 18px;
+                margin-bottom: 20px;
+                margin-top: 0;
+            }
+        }
+    }
 
+    .servinfobox {
+        margin-bottom: 30px;
 
+        p {
+            margin-bottom: 15px;
+        }
+    }
 
+    .gensect__akcia .container>img {
+        margin-bottom: 30px;
+    }
+
+    .gensect__akcia .title {
+        font-size: 18px;
+        line-height: 24px;
+    }
 
 }
 
@@ -784,13 +812,22 @@
         font-size: 16px;
     }
 
+    .gensect.gensect__gallery {
+        padding-top: 30px;
+    }
 
+    .gensect__gallery-textbox p.title {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
 
+    .abouthotel img {
+        margin-bottom: 20px;
+    }
 
-
-
-
-
+    .gensect.gensect__akcia {
+        padding-top: 30px;
+    }
 
 
 
@@ -803,7 +840,20 @@
 
 }
 
+@media (max-width: 420.8px) {
+    .gallerysect {
+        .row {
+            margin-left: -5px;
+            margin-right: -5px;
 
+            .col-6 {
+                padding-left: 5px;
+                padding-right: 5px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
 
 
 

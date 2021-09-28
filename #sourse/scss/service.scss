@@ -1,0 +1,59 @@
+.gallerysect.service {
+    .gensect__gallery-textbox {
+        .title {
+            margin-bottom: 50px;
+        }
+    }
+}
+
+.gensect.gensect_service {
+    padding-top: 0;
+}
+
+.serv-subtitle {
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.gensect.gensect__gallery {
+    padding-bottom: 40px;
+}
+
+.abouthotel {
+    .servinfobox {
+        p {
+            font-weight: 600;
+        }
+    }
+}
+
+.servinfobox {
+    margin-bottom: 50px;
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    * {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        color: #2c281b;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.servinfoboxex {
+    margin-top: 30px;
+}
