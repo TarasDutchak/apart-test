@@ -573,6 +573,36 @@
         line-height: 24px;
     }
 
+    .contactform input:not([type=submit]) {
+        margin-bottom: 20px;
+    }
+
+    .gensect.gensect__cont .descr {
+        margin-bottom: 30px;
+    }
+
+    .contactform textarea {
+        margin-bottom: 30px;
+    }
+
+    .contright {
+        padding-top: 50px;
+    }
+
+    .errftext {
+        font-size: 26px;
+    }
+
+    .errorsection__content img {
+        margin-bottom: 30px;
+        max-width: 80%;
+    }
+
+    .errorsection__content .stext {
+        margin-bottom: 40px;
+    }
+
+
 }
 
 @media (max-width: 767.8px) {
@@ -865,6 +895,30 @@
     .contactform textarea {
         margin-bottom: 20px;
     }
+
+    .contactform input:not([type=submit]) {
+        height: 42px;
+    }
+
+    .gensect.gensect__cont form {
+        margin-bottom: 50px;
+    }
+
+    .errftext {
+        font-size: 20px;
+    }
+
+    .errorsection__content .stext {
+        font-size: 14px;
+    }
+
+    .errorsection__content img {
+        max-width: 90%;
+    }
+
+
+
+
 
 
 

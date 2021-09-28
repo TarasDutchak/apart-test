@@ -1,0 +1,89 @@
+.gensect.gensect__cont {
+    .descr {
+        margin-bottom: 50px;
+
+        p {
+            font-weight: 300;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .contactform .submitbtn {
+        margin: 0;
+    }
+
+    .contactform textarea {
+        height: 140px;
+        resize: none;
+    }
+
+    form {
+        margin-bottom: 70px;
+    }
+
+    .soccont {
+        ul {
+            width: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            a {
+                transition: .3s;
+
+                &:hover {
+                    opacity: .6;
+                }
+            }
+        }
+    }
+}
+
+.contright {
+    >img {
+        margin-bottom: 45px;
+    }
+
+    .ftitle {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 25px;
+
+        span {
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 20px;
+            display: block;
+        }
+    }
+
+    .title {
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+
+    .descr {
+        font-weight: 300;
+        color: #2C281B;
+
+        a {
+            color: #2C281B;
+
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+}
+
+.gensect.gensect__cont .contright .descr {
+    margin-bottom: 25px;
+
+    b {
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/lib/slick.css">
+    <link rel="stylesheet" href="css/lib/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="pagewrapper">
+        <header class="header">
+            <div class="header__whiteline">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9">
+                            <ul class="header__contacts">
+                                <li class="header__contacts-tel"><a href="tel:380661234567"><span>Готель:</span>
+                                        +380661234567</a></li>
+                                <li class="header__contacts-tel"><a href="tel:380661234567"><span>SPA:</span>
+                                        +380661234567</a></li>
+                                <li class="header__contacts-mail"><a
+                                        href="mailto:info@fb-resort.com"><span>E-mail:</span> info@fb-resort.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <ul class="header__socials">
+                                <li>
+                                    <a href="#" target="_blank"><img src="img/svg/fb-icon.svg" alt="facebook"></a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank"><img src="img/svg/insta-icon.svg" alt="Instagram"></a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank"><img src="img/svg/you-icon.svg" alt="YouTube"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__main">
+                <div class="container">
+                    <div class="header__mainwrap">
+                        <div class="header__logo">
+                            <a href="index.html"><img src="img/svg/logo.svg" alt="Logo"></a>
+                        </div>
+                        <div class="mobwrapp">
+                            <div class="scrollcont">
+                                <nav class="header__nav">
+                                    <ul>
+                                        <li><a href="#">Головна</a></li>
+                                        <li><a href="#">Номери</a></li>
+                                        <li><a href="#">SPA</a></li>
+                                        <li class="active"><a href="#">Ресторан</a></li>
+                                        <li class="submenu">
+                                            <a href="#">Послуги</a>
+                                            <ul class="sublist">
+                                                <li><a href="#">Послуга 1</a></li>
+                                                <li><a href="#">Послуга 2</a></li>
+                                                <li><a href="#">Послуга 3</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Контакти</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                    </ul>
+                                </nav>
+                                <div class="header__main-rightbox">
+                                    <div class="header__language">
+                                        <span>Ua</span>
+                                        <ul>
+                                            <li><a href="#">Ua</a></li>
+                                            <li><a href="#">En</a></li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="yellowbtn">Забронювати</a>
+                                </div>
+                            </div>
+                            <button class="closemenu">
+                                <img src="img/svg/close-menu.svg" alt="close menu">
+                            </button>
+                        </div>
+                        <div class="mobtelbox">
+                            <span><img src="img/svg/tel-icon-yellow.svg" alt="tel"></span>
+                            <ul>
+                                <li><a href="tel:380661234567">Готель: +380661234567</a></li>
+                                <li><a href="tel:380661234567">SPA: +380661234567</a></li>
+                            </ul>
+                        </div>
+                        <button class="burger">
+                            <img src="img/svg/burger.svg" alt="burger">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main firstscreen">
+            <div class="gensect gensect__cont">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8">
+                            <p class="sect-title">Зворотній зв’язок</p>
+                            <div class="descr">
+                                <p>
+                                    Ми завжди будемо раді вас бачити в F&B SPA RESORT. Ми будемо намагатися щоб ваш
+                                    відпочинок був незабутній, і Ви запам’ятали його надовго!
+                                </p>
+                            </div>
+                            <form action="#" class="contactform">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <input type="text" placeholder="Ваше ім’я">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input class="telnum" type="tel" placeholder="Номер телефону">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="email" placeholder="Ваш e-mail">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="text" placeholder="Отримувач">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="text" placeholder="Тема">
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea placeholder="Ваше повідомлення"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="submit" value="надіслати" class="submitbtn yellowbtn">
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="soccont">
+                                <p class="sect-title">Соціальні мережі</p>
+                                <ul class="">
+                                    <li>
+                                        <a href="#" target="_blank"><img src="img/svg/contfb.svg" alt="facebook"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank"><img src="img/svg/continst.svg" alt="Instagram"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank"><img src="img/svg/contyt.svg" alt="YouTube"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="contright">
+                                <p class="sect-title">Наша адреса</p>
+                                <img src="img/contimg.jpg" alt="img">
+                                <p class="ftitle">F&B SPA RESORT
+                                    <span>Урочище Вишня, 13</span></p>
+                                <div class="contright__box">
+                                    <p class="title">Відділ "Бронювання":
+                                    </p>
+                                    <div class="descr">
+                                        <p>
+                                            <a href="tel:+380504643355">+38 (050) 464 33 55 </a>
+                                        </p>
+                                        <p>
+                                            <a href="tel:+380504643355">+38 (050) 464 33 55 </a>
+                                        </p>
+                                        <p>
+                                            <a href="tel:+380502516670">+38 (050) 251 66 70 (Viber)</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="contright__box">
+                                    <p class="title">Рецепція:
+                                    </p>
+                                    <div class="descr">
+                                        <p><a href="tel:380992517757">+38 (099) 251 77 57 (Viber)</a></p>
+                                    </div>
+                                </div>
+                                <div class="contright__box">
+                                    <p class="title">SPA:
+                                    </p>
+                                    <div class="descr">
+                                        <p><a href="tel:380687444888">+38 (068) 744 48 88</a></p>
+                                    </div>
+                                </div>
+                                <div class="contright__box">
+                                    <p class="title">Ресторан:
+                                    </p>
+                                    <div class="descr">
+                                        <p><a href="tel:380991054225">+38 (099) 105 42 25</a></p>
+                                    </div>
+                                </div>
+                                <div class="contright__box">
+                                    <p class="title">Для корпоративних груп:</p>
+                                    <div class="descr">
+                                        <p><a href="tel:+380505381880">+38 (050) 538 18 80</a></p>
+                                    </div>
+                                </div>
+                                <div class="contright__box">
+                                    <p class="title">Event-service:</p>
+                                    <div class="descr">
+                                        <p><a href="tel:+380507444888">+38 (050) 744 48 88</a></p>
+                                    </div>
+                                </div>
+                                <div class="contright__box">
+                                    <div class="descr">
+                                        <p><b><a href="mailto:info@fb-resort.com">info@fb-resort.com</a></b> – загальні запитання</p>
+                                    </div>
+                                </div>
+                                <div class="contright__box">
+                                    <div class="descr">
+                                        <p><b><a href="mailto:marketing@fb-resort.com">marketing@fb-resort.com</a></b> – з приводу реклами та співпраці</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="footer__logo">
+                        <a href="index.html"><img src="img/svg/logo-footer.svg" alt="logo"></a>
+                    </div>
+                    <div class="footer__contacts">
+                        <div class="fcontwrap">
+                            <p>НАШІ КОНТАКТИ</p>
+                            <ul>
+                                <li>Урочище Вишня, 13</li>
+                                <li><a href="tel:380504643355">+38 (050) 464 33 55</a></li>
+                                <li><a href="mailto:info@fb-resort.com">info@fb-resort.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__form">
+                        <p>Щоб бути в курсі всіх подій, підпишись на розсилку</p>
+                        <form action="#">
+                            <input type="text" placeholder="Ваше ім'я">
+                            <input type="email" placeholder="Ваш e-mail">
+                            <input type="submit" value="підписатись">
+                            <a href="#" class="totop">
+                                <svg width="16" height="25" viewBox="0 0 16 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.70711 0.292892C8.31658 -0.0976315 7.68342 -0.0976314 7.29289 0.292892L0.928931 6.65685C0.538407 7.04738 0.538407 7.68054 0.928931 8.07107C1.31946 8.46159 1.95262 8.46159 2.34315 8.07107L8 2.41421L13.6569 8.07107C14.0474 8.46159 14.6805 8.46159 15.0711 8.07107C15.4616 7.68054 15.4616 7.04738 15.0711 6.65685L8.70711 0.292892ZM9 25L9 1L7 1L7 25L9 25Z"
+                                        fill="#EFC47A" />
+                                </svg>
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <p class="footer__bottext">© 2021 FOMICH HOTELS GROUP All Rights Reserved</p>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/lib/slick.min.js"></script>
+    <script src="js/lib/jquery.fancybox.min.js"></script>
+    <script src="js/lib/jquery.inputmask.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>

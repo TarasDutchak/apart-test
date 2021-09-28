@@ -169,6 +169,11 @@ $(document).ready(function () {
         $(this).parents('.faqsection__box').find('.faqsection__header').toggleClass('arrowimg');
     });
 
+    $('.telnum').inputmask({
+        "mask": "+ 99 /999/ 999-9999",
+        showMaskOnHover: false,
+        showMaskOnFocus: false,
+    });
 
 
 
