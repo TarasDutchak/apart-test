@@ -165,7 +165,8 @@ $(document).ready(function () {
     // faq
 
     $('.faq-closeshow').click(function () {
-
+        $(this).parents('.faqsection__box').find('.faqsection__body').slideToggle();
+        $(this).parents('.faqsection__box').find('.faqsection__header').toggleClass('arrowimg');
     });
 
 

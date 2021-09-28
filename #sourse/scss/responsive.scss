@@ -829,12 +829,42 @@
         padding-top: 30px;
     }
 
+    .gensect.gensect__faq {
+        padding-top: 30px;
+    }
 
+    .faqsection__header {
+        padding: 5px 40px 5px 15px;
 
+        p {
+            font-size: 16px;
+            line-height: normal;
+        }
+    }
 
+    .faqsection__header .faq-closeshow {
+        right: 15px;
+    }
 
+    .faqsection__body {
+        padding: 15px;
 
+        p {
+            font-size: 14px;
+        }
+    }
 
+    .faqsection__body ul li {
+        font-size: 14px;
+    }
+
+    .contactform input:not([type=submit]) {
+        margin-bottom: 15px;
+    }
+
+    .contactform textarea {
+        margin-bottom: 20px;
+    }
 
 
 
