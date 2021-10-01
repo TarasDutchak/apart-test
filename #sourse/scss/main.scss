@@ -128,7 +128,7 @@ img {
             margin-bottom: 23px;
         }
 
-        h1 {
+        .likeh1 {
             margin-bottom: 12px;
             color: #efc47a;
             font-weight: bold;
@@ -137,7 +137,7 @@ img {
             letter-spacing: 0.05em;
         }
 
-        h2 {
+        h1 {
             margin: 0;
             color: #fffcf2;
             letter-spacing: 0.05em;
@@ -552,7 +552,8 @@ img {
         line-height: 27px;
     }
 
-    .firstabs {
+    .firstabs,
+    h2 {
         font-size: 18px;
         line-height: 25px;
         margin-bottom: 20px;
@@ -852,9 +853,19 @@ img {
     border: none;
 }
 
+.event .event__descr .descr {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 
-
-
+.abouthotel h3 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
 
 
 

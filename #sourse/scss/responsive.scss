@@ -31,7 +31,7 @@
         right: 40px;
     }
 
-    .welcomescreen .welcomescreen__textbox h1 {
+    .welcomescreen .welcomescreen__textbox .likeh1 {
         font-size: 52px;
         line-height: 62px;
     }
@@ -40,7 +40,7 @@
         height: 42px;
     }
 
-    .welcomescreen .welcomescreen__textbox h2 {
+    .welcomescreen .welcomescreen__textbox h1 {
         font-size: 24px;
         line-height: 34px;
     }
@@ -77,6 +77,9 @@
         margin-bottom: 20px;
     }
 
+    .errftext.tytitle {
+        font-size: 70px;
+    }
 
 
 
@@ -129,7 +132,7 @@
         left: 30px;
     }
 
-    .welcomescreen .welcomescreen__textbox h2 {
+    .welcomescreen .welcomescreen__textbox h1 {
         font-size: 22px;
         line-height: 32px;
     }
@@ -208,7 +211,8 @@
         margin-bottom: 20px;
     }
 
-    .abouthotel .firstabs {
+    .abouthotel .firstabs,
+    .abouthotel h2 {
         font-size: 16px;
     }
 
@@ -573,7 +577,8 @@
         line-height: 24px;
     }
 
-    .contactform input:not([type=submit]) {
+    .contactform input:not([type=submit]),
+    .contactform select {
         margin-bottom: 20px;
     }
 
@@ -601,6 +606,16 @@
     .errorsection__content .stext {
         margin-bottom: 40px;
     }
+
+    .header__main .header__main-rightbox .header__language ul li {
+        border-bottom: 0.5px solid transparent;
+    }
+
+    .header__main .header__main-rightbox .header__language ul li.active {
+        border-bottom: 0.5px solid #efc47a;
+    }
+
+
 
 
 }
@@ -647,7 +662,9 @@
         margin-top: 30px;
     }
 
-
+    .errftext.tytitle {
+        font-size: 60px;
+    }
 
 
 
@@ -655,6 +672,10 @@
 }
 
 @media (max-width: 575.8px) {
+    .errftext.tytitle {
+        font-size: 42px;
+    }
+
     .mainslider .slick-prev {
         left: 10px;
     }
@@ -673,12 +694,12 @@
         line-height: normal;
     }
 
-    .welcomescreen .welcomescreen__textbox h1 {
+    .welcomescreen .welcomescreen__textbox .likeh1 {
         font-size: 40px;
         line-height: 48px;
     }
 
-    .welcomescreen .welcomescreen__textbox h2 {
+    .welcomescreen .welcomescreen__textbox h1 {
         font-size: 16px;
         line-height: 26px;
     }
@@ -846,7 +867,7 @@
         padding-top: 30px;
     }
 
-    .gensect__gallery-textbox p.title {
+    .gensect__gallery-textbox .title {
         margin-bottom: 20px;
         font-size: 18px;
     }
@@ -892,11 +913,17 @@
         margin-bottom: 15px;
     }
 
+    .contactform select {
+        margin-bottom: 15px;
+    }
+
+
     .contactform textarea {
         margin-bottom: 20px;
     }
 
-    .contactform input:not([type=submit]) {
+    .contactform input:not([type=submit]),
+    .contactform select {
         height: 42px;
     }
 
@@ -936,6 +963,10 @@
                 margin-bottom: 10px;
             }
         }
+    }
+
+    .header__main .header__main-rightbox .header__language ul li a {
+        padding: 5px 7px;
     }
 }
 
