@@ -104,7 +104,9 @@ header {
             justify-content: space-between;
 
             li {
-                a {
+
+                a,
+                span {
                     color: #fffcf2;
                     font-weight: 600;
                     font-size: 16px;
@@ -125,9 +127,11 @@ header {
         .submenu {
             position: relative;
 
-            &>a {
+            &>a,
+            &>span {
                 position: relative;
                 padding-right: 26px;
+                cursor: pointer;
 
                 &:after {
                     content: "";
@@ -235,11 +239,13 @@ header {
 }
 
 .header__main .header__nav .submenu>a:after,
+.header__main .header__nav .submenu>span:after,
 .header__main .header__main-rightbox .header__language>span:after {
     transition: 0.3s;
 }
 
 .header__main .header__nav .submenu>a.menuarrrotate:after,
+.header__main .header__nav .submenu>span.menuarrrotate:after,
 .header__main .header__main-rightbox .header__language>span.menuarrrotate:after {
     transform: rotate(180deg) translateY(50%);
 }

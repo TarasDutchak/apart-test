@@ -2,6 +2,7 @@
 
     .header__whiteline .header__contacts li:after,
     .header__main .header__nav .submenu>a:after,
+    .header__main .header__nav .submenu>span:after,
     .header__main .header__main-rightbox .header__language>span:after {
         width: 16px;
         height: 16px;
@@ -96,6 +97,7 @@
     //
     .header__whiteline .header__contacts li a,
     .header__main .header__nav ul li a,
+    .header__main .header__nav ul li span,
     .header__main .header__main-rightbox .header__language>span {
         font-size: 14px;
     }
@@ -281,6 +283,7 @@
     }
 
     .header__main .header__nav ul li a,
+    .header__main .header__nav ul li span,
     .header__main .header__main-rightbox .header__language>span {
         font-size: 20px;
     }
@@ -296,12 +299,14 @@
     }
 
     .header__main .header__nav .submenu>a,
+    .header__main .header__nav .submenu>span,
     .header__main .header__main-rightbox .header__language>span {
         padding-right: 0;
     }
 
     .header__main .header__main-rightbox .header__language>span:after,
-    .header__main .header__nav .submenu>a:after {
+    .header__main .header__nav .submenu>a:after,
+    .header__main .header__nav .submenu>span:after {
         right: -25px;
     }
 
@@ -804,6 +809,7 @@
     }
 
     .header__main .header__nav ul li a,
+    .header__main .header__nav ul li span,
     .header__main .header__main-rightbox .header__language>span {
         font-size: 18px;
     }

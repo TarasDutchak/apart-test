@@ -57,7 +57,7 @@ $(document).ready(function () {
 
 
     // menu
-    $('.submenu > a').click(function () {
+    $('.submenu > span').click(function () {
         $(this).toggleClass('menuarrrotate');
         $(this).next('.sublist').slideToggle();
     });
