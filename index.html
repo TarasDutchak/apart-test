@@ -85,7 +85,8 @@
                                             <li><a href="#">Ru</a></li>
                                         </ul>
                                     </div>
-                                    <a href="#" class="yellowbtn">Забронювати</a>
+                                    <a href="#" class="yellowbtn" data-toggle="modal"
+                                        data-target="#bookmodal1">Забронювати</a>
                                 </div>
                             </div>
                             <button class="closemenu">
@@ -558,7 +559,8 @@
                 <img src="img/modalimg.jpg" alt="Незабаром відкриття FOMICH HOTELS GROUP у Поляниці">
                 <div class="fullscreenmodal__descr">
                     <p>
-                        Встигніть забронювати номер, щоб бути присутнім на грандіозному відкритті нового готелю від FOMICH HOTELS GROUP.  
+                        Встигніть забронювати номер, щоб бути присутнім на грандіозному відкритті нового готелю від
+                        FOMICH HOTELS GROUP.
                     </p>
                 </div>
                 <div class="fullscreenmodal__btns">
@@ -567,7 +569,39 @@
                 </div>
             </div>
 
-            
+
+        </div>
+    </div>
+
+    <div class="modal fade bookmodal" id="bookmodal1" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="img/svg/close-modal.svg" alt="close">
+                </button>
+                <div class="modal-body">
+                    <p class="title">Швидке бронювання</p>
+                    <form action="#">
+                        <input type="hidden" name="type" id="bookstatus" value="Хедер">
+
+                        <div class="inputfield">
+                            <label for="name">Ім'я <span>*</span></label>
+                            <input type="text" id="name">
+                        </div>
+                        <div class="inputfield">
+                            <label for="tel">Номер телефону <span>*</span></label>
+                            <input type="text" class="telnum" id="tel">
+                        </div>
+
+                        <div class="bookmodalbtns">
+                            <a href="#" class="yellowbtn" data-dismiss="modal">закрити</a>
+                            <a href="#" class="borderbtn">Надіслати</a>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -575,6 +609,7 @@
     <script src="js/lib/bootstrap.min.js"></script>
     <script src="js/lib/slick.min.js"></script>
     <script src="js/lib/jquery.fancybox.min.js"></script>
+    <script src="js/lib/jquery.inputmask.min.js"></script>
     <script src="js/common.js"></script>
 </body>
 

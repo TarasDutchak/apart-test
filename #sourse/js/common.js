@@ -172,14 +172,13 @@ $(document).ready(function () {
 
     if ($('*').is('.telnum')) {
         $('.telnum').inputmask({
-            "mask": "+ 99 /999/ 999-9999",
+            "mask": "+ 99 999 999 9999",
             showMaskOnHover: false,
             showMaskOnFocus: false,
         });
     }
-
-
-
+   
+    
 
 
 
