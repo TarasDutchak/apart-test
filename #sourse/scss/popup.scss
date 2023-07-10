@@ -92,6 +92,18 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+button.borderbtn {
+    background: transparent;
+    outline: none;
+}
+
+.bookmodal .bookmodalbtns button {
+    width: 100%;
+    max-width: 46%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 46%;
+    flex: 0 0 46%;
+}
 
 @media(max-width:575.8px) {
     .bookmodal .modal-body {
@@ -109,4 +121,10 @@ input[type=number] {
         height: 50px;
     }
 
+
+    .bookmodal .bookmodalbtns button {
+        max-width: calc(50% - 5px);
+        padding: 0 5px;
+        height: 50px;
+    }
 }
